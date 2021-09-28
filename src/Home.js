@@ -1,12 +1,17 @@
-import React, { Component } from 'react'
+import React from 'react';
+import Menu from './Menu';
+import Body  from './Body';
 
-export default class Home extends Component {
-    render() {
-        return (
-            <div>
-                <h1>heloooo</h1>
-                <p>s</p>
-            </div>
-        )
-    }
+import './Home.css';
+
+
+export default function Home() {
+    return (
+        <div className="menubar">
+           <Menu />
+           <Body />
+               </div>
+
+     
+    )
 }

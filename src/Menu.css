@@ -1,0 +1,32 @@
+.menu{
+    
+    height: 88vh;
+     border-radius: 7px;
+    padding: 10px;
+    background-color: rgb(175, 206, 206);
+    cursor:pointer;
+}
+
+h3:hover{
+    background-color: rgb(228, 198, 203);
+}
+.buttonstd{
+    
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color:rgb(137, 199, 199);
+}
+.buttonaddstd{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color:rgb(137, 199, 199);
+}
+.buttonrepstd{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color:rgb(137, 199, 199);
+}
+
+input:hover{
+    background-color: rgb(218, 180, 186);
+}

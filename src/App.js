@@ -7,11 +7,12 @@ import './custom.scss';
 import Login from "./login.component";
 import SignUp from "./signup.component";
 import Home from './Home';
+import Addform from './Addform';
 
 function App() {
  
   return (<Router>
-    <div className="App">
+    <div className="app">
       <nav className="navbar navbar-expand-lg navbar-light fixed-top">
         <div className="container">
           <Link className="navbar-brand" to={"/sign-in"}></Link>
@@ -23,7 +24,9 @@ function App() {
               <li className="nav-item">
                 <Link className="nav-link" to={"/sign-up"}>Sign up</Link>
               </li>
+              
             </ul>
+            
           </div>
         </div>
       </nav>
@@ -35,12 +38,19 @@ function App() {
             <Route path="/sign-in" component={Login} />
             <Route path="/sign-up" component={SignUp} />
             <Route path="/Home" component={Home} />
+            <Route path="/Addform" component={Addform} />
+        
+            
             
           </Switch>
         </div>
-      
+       
       </div>
-    </div></Router>
+    </div>
+    
+    </Router>
+     
+   
     
     
   );

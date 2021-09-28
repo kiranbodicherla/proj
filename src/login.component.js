@@ -4,7 +4,7 @@ import React, { Component } from "react";
 export default class Login extends Component {
     onSubmitHandler = (e) => {
         e.preventDefault();
-       this.props.history.push('/Home')
+       this.props.history.push('./Home')
       }
     
     render() {
